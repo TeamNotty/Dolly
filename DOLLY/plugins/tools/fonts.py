@@ -1,7 +1,7 @@
 from pyrogram import  filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from DOLLY.utils.purvi_font import Fonts
+from DOLLY.utils.notty_font import Fonts
 from DOLLY import app
 
 @app.on_message(filters.command(["font", "fonts"]))
